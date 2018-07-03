@@ -3,6 +3,6 @@
   tasks:
    - name: Create Folder
      file:
-       path: /home/ubuntu/tomcat
+       path: /home/ubuntu/test
        state: directory
        mode: 0755
