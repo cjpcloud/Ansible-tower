@@ -3,6 +3,6 @@
   tasks:
    - name: Create Folder
      file:
-       path: /home/ubuntu/test
+       path: /opt/test
        state: directory
        mode: 0755
