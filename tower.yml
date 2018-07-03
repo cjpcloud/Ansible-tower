@@ -1,8 +1,4 @@
 
 - hosts: localhost
   tasks:
-   - name: Create Folder
-     file:
-       path: /opt/test
-       state: directory
-       mode: 0755
+   echo "hello cjp"
