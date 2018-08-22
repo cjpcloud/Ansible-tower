@@ -1,5 +1,5 @@
 
-- hosts: localhost
+- hosts: 172.31.32.232
   sudo: yes
   tasks:
    - name: Create Folder
