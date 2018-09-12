@@ -4,6 +4,6 @@
    - name: create the folder
      file:
        path: /home/ubuntu/tomcat
-       state: absent
+       state: directory
        mode: 0755
 
