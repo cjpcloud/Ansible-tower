@@ -1,6 +1,5 @@
 
 - hosts: Dev
- 
   tasks:
    - name: create the folder
      file:
