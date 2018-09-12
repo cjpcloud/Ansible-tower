@@ -1,6 +1,6 @@
 
-- hosts: localhost
-  sudo: yes
+- hosts: Dev
+ 
   tasks:
    - name: create the folder
      file:
