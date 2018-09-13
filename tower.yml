@@ -1,6 +1,7 @@
 
 - hosts: Prod
   sudo: yes
+  remote_src=yes
   tasks:
      - name: Install add-apt-repostory
        become: yes
