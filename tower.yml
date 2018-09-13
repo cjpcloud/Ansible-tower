@@ -27,8 +27,8 @@
        unarchive: src=/opt/apache-tomcat-8.0.53.tar.gz dest=/opt/
      - name: war file download
        get_url: url=https://s3.amazonaws.com/warfiles123/LoginApp.war dest=/opt/apache-tomcat-8.0.53/webapps/
-     - name: start apache-tomcat-8.0.53
-       shell: /opt/apache-tomcat-8.0.53/bin/shatdown.sh
+     - name: stop apache-tomcat-8.0.53
+       shell: /opt/apache-tomcat-8.0.53/bin/shutdown.sh
      - name: start apache-tomcat-8.0.53
        shell: /opt/apache-tomcat-8.0.53/bin/startup.sh
 
