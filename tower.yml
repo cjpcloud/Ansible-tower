@@ -1,5 +1,5 @@
 
-- hosts: Dev
+- hosts: Prod
   tasks:
    - name: create the folder
      file:
