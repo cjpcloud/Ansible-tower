@@ -28,9 +28,9 @@
      - name: extract the tar file
        unarchive: src=/opt/apache-tomcat-8.0.53.tar.gz dest=/opt/ remote_src: True
      - name: war file download
-       get_url: url=https://s3.amazonaws.com/warfiles123/LoginApp.war dest=/opt/apache-tomcat-8.0.53/webapps/
+       get_url: url=https://s3.amazonaws.com/demo985/LoginApp.war dest=/opt/apache-tomcat-8.0.53/webapps/
      - name: stop apache-tomcat-8.0.53
-       shell: /opt/apache-tomcat-8.0.53/bin/shutdown.sh
+       command: /opt/apache-tomcat-8.0.53/bin/shutdown.sh
      - name: start apache-tomcat-8.0.53
-       shell: /opt/apache-tomcat-8.0.53/bin/startup.sh
+       command: /opt/apache-tomcat-8.0.53/bin/startup.sh
 
